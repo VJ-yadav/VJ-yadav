@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Vijay Yadav — Full Stack Data & AI Engineer
 
 🎯 I build secure, intelligent data systems and platforms that help people succeed  
-🚀 Founder of [StudentSucceed](https://studentsucceed.com) & [YouGrow.llc](https://yougrow.llc)  
+🚀 Founder of [StudentSucceed](https://studentsucceed.com)
 🎥 I also run [vjsnapp.com](https://vjsnapp.com), my photography & video business
 
 ---

@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Vijay Yadav — Full Stack Data & AI Engineer : Mostly COntributing on Private Repo
+# 👋 Hi, I'm Vijay Yadav, Full Stack Data & AI Engineer : Mostly Contributing on private StudentSucceed repo
 
 🎯 I build secure, intelligent data systems and platforms that help people succeed  
 🚀 Founder of [StudentSucceed](https://studentsucceed.com)

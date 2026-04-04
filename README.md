@@ -3,7 +3,7 @@
 🎯 I build secure, intelligent data systems and platforms that help people succeed  
 🚀 Founder of [StudentSucceed](https://studentsucceed.com) — AI-powered career platform for university students  
 🔧 Active OSS contributor to [AltimateAI/altimate-code](https://github.com/AltimateAI/altimate-code)  
-🎥 I also run [vjsnapp.com](https://vjsnapp.com), my photography & video business
+🎥 I also run [vjsnapp.com](https://vjsnapp.com), my photography & video passion
 
 ---
 

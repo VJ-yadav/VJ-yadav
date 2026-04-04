@@ -1,65 +1,111 @@
-# 👋 Hi, I'm Vijay Yadav, Full Stack Data & AI Engineer : Mostly Contributing on private StudentSucceed repo
+# 👋 Hi, I'm Vijay Yadav — Full Stack Data & AI Engineer
 
 🎯 I build secure, intelligent data systems and platforms that help people succeed  
-🚀 Founder of [StudentSucceed](https://studentsucceed.com)
+🚀 Founder of [StudentSucceed](https://studentsucceed.com) — AI-powered career platform for university students  
+🔧 Active OSS contributor to [AltimateAI/altimate-code](https://github.com/AltimateAI/altimate-code)  
 🎥 I also run [vjsnapp.com](https://vjsnapp.com), my photography & video business
+
+---
+
+## 🛠️ What I'm Building
+
+### [StudentSucceed](https://studentsucceed.com) — AI Career Platform
+Full-stack SaaS platform helping university students find jobs, prepare for interviews, and manage their career journey. Solo-built from scratch — backend, frontend, data pipelines, infrastructure.
+
+**Highlights:**
+- **44x search optimization** — Job search from 2.4s → 55ms via PostgreSQL TSVECTOR + query restructuring
+- **Async resume pipeline** — 6.1s parse with Gemini structured output, non-blocking uploads
+- **Agentic data pipeline** — Medallion architecture collecting from 7+ ATS providers (Ashby, Lever, Greenhouse, Adzuna, USAJobs, Muse, RemoteOK)
+- **Credit-based billing** — Stripe integration with atomic credit transactions, tier-based access control
+- **Voice AI interviews** — Real-time WebSocket interview practice with Deepgram + LLM scoring
+- **Full CI/CD** — GitHub Actions for staging/production deploys, automated migrations
+
+**Stack:** Python · FastAPI · Next.js · PostgreSQL · AWS ECS/Fargate · Stripe · Gemini · Deepgram
+
+---
+
+### OSS Contributions — [AltimateAI/altimate-code](https://github.com/AltimateAI/altimate-code)
+
+Active contributor to Altimate's open-source data tool. **10 PRs** (1 merged, 9 in review):
+
+| PR | Description |
+|----|-------------|
+| [#649](https://github.com/AltimateAI/altimate-code/pull/649) | feat: Databricks AI Gateway as LLM provider |
+| [#622](https://github.com/AltimateAI/altimate-code/pull/622) | feat: Native GitLab MR review integration ✅ merged |
+| [#621](https://github.com/AltimateAI/altimate-code/pull/621) | fix: Accept `mcpServers` as alias for `mcp` in config |
+| [#599](https://github.com/AltimateAI/altimate-code/pull/599) | fix: ClickHouse driver review findings |
+| [#597](https://github.com/AltimateAI/altimate-code/pull/597) | fix: URL-encode special characters in connection string passwords |
+| [#596](https://github.com/AltimateAI/altimate-code/pull/596) | fix: Pagination support for recap trace list |
+| [#550](https://github.com/AltimateAI/altimate-code/pull/550) | fix: Pass warehouse dialect to altimate-core tools |
+| [#548](https://github.com/AltimateAI/altimate-code/pull/548) | fix: Re-trace system prompt on agent switch |
+| [#547](https://github.com/AltimateAI/altimate-code/pull/547) | fix: Update remaining opencode references in CLI |
+| [#432](https://github.com/AltimateAI/altimate-code/pull/432) | fix: Migrate string interpolation to parameterized query binds |
 
 ---
 
 ## 📊 GitHub Stats
 
-![Vijay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vjyadav&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vjyadav&layout=compact&theme=tokyonight)
-![GitHub Streak](https://streak-stats.demolab.com?user=vjyadav&theme=tokyonight)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=VJ-yadav&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VJ-yadav&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=VJ-yadav&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
 ---
 
 ## 🧠 Tech Stack
 
+**Languages & Frameworks**  
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+
+**Data & AI**  
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/-Snowflake-29B5E8?style=flat-square&logo=snowflake)
-![DBT](https://img.shields.io/badge/-dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws)
-![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker)
+![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apache-airflow)
+![Gemini](https://img.shields.io/badge/-Gemini-886FBF?style=flat-square&logo=google&logoColor=white)
+
+**Infrastructure**  
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Stripe](https://img.shields.io/badge/-Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)
 
 ---
 
 ## 💼 Experience
 
-**🎓 Student Success Analyst**  
-_Bentley University (2024–Present)_  
-- Built FinAid dashboards, cohort models, and retention metrics  
-- Led masking + access control of clinical & referral data (static/dynamic)
+**🚀 Founder & Full Stack Engineer** — [StudentSucceed](https://studentsucceed.com) _(2024–Present)_  
+Building an AI-powered career platform for university students. Solo architect of the entire stack — backend services, React frontend, data pipelines, cloud infrastructure, and billing.
 
-**☁️ Lead Data Engineer – Healthcare Cloud**  
-_Built scalable pipelines with GCP, PySpark, Airflow, BigQuery_
+**🎓 Student Success Analyst** — Bentley University _(2024–Present)_  
+Built FinAid dashboards, cohort models, and retention metrics. Led masking + access control of clinical & referral data.
 
-**🎬 AI Fullstack Developer – FilmTrends**  
-- Upload, analyze, and extract metadata from videos  
-- Built event-driven Lambda + S3 + FastAPI backend
+**☁️ Lead Data Engineer** — Healthcare Cloud  
+Built scalable pipelines with GCP, PySpark, Airflow, BigQuery.
 
 ---
 
 ## 📦 Featured Projects
 
-- 🎓 [StudentHousing](https://github.com/vjyadav/studenthousing): Verified .edu housing platform  
-- 🎬 [filmtrends-fullstack](https://github.com/vjyadav/filmtrends-fullstack): Lambda+S3 video intelligence app  
-- 🧠 [sqldatawarehouse](https://github.com/vjyadav/sqldatawarehouse): DBT-powered Snowflake warehouse
+| Project | Description |
+|---------|-------------|
+| 🎓 [StudentSucceed](https://studentsucceed.com) | AI career platform — jobs, interviews, resume parsing, credit billing |
+| 🔧 [altimate-code contributions](https://github.com/AltimateAI/altimate-code/pulls?q=author%3AVJ-yadav) | 10 PRs: Databricks provider, GitLab integration, SQL injection fixes |
+| 🎬 [filmtrends-fullstack](https://github.com/VJ-yadav/filmtrends-fullstack) | Lambda + S3 video intelligence app |
+| 🧠 [sqldatawarehouse](https://github.com/VJ-yadav/sqldatawarehouse) | dbt-powered Snowflake warehouse |
+| 🌐 [AWS Data Engineering](https://github.com/VJ-yadav/AWS_Data_Engineering_P1) | End-to-end AWS data engineering project |
 
 ---
 
 ## 🌐 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/vjyadav)  
-📧 vjyadav193@gmail.com  
-🌍 [vjsnapp.com](https://vjsnapp.com)
-
----
-
-> 💡 Optionally, add badges for profile views, blog posts, and more:  
-> Use: https://shields.io/, https://github.com/DenverCoder1/github-readme-streak-stats, https://github.com/anuraghazra/github-readme-stats
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vjyadav)
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vjyadav193@gmail.com)
+[![Website](https://img.shields.io/badge/-vjsnapp.com-000000?style=flat-square&logo=safari&logoColor=white)](https://vjsnapp.com)

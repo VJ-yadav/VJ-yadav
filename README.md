@@ -1,8 +1,8 @@
-# 👋 Hi, I'm Vijay Yadav — Full Stack Data & AI Engineer
+# 👋 Hi, I'm Vijay Yadav - Full Stack Data & AI Engineer
 
 🎯 I build secure, intelligent data systems and platforms that help people succeed  
-🚀 Founder of [StudentSucceed](https://studentsucceed.com) — AI-powered career platform for university students  
-🧠 Creator of [localmem](https://localmem.org) — open-source, local-first memory for AI agents (MCP-native, Apache-2.0)  
+🚀 Founder of [StudentSucceed](https://studentsucceed.com) - AI-powered career platform for university students  
+🧠 Creator of [localmem](https://localmem.org) - open-source, local-first memory for AI agents (MCP-native, Apache-2.0)  
 🔧 Active OSS contributor to [AltimateAI/altimate-code](https://github.com/AltimateAI/altimate-code)  
 🎥 I also run [vjsnapp.com](https://vjsnapp.com), my photography & video passion
 
@@ -10,37 +10,37 @@
 
 ## 🛠️ What I'm Building
 
-### [StudentSucceed](https://studentsucceed.com) — AI Career Platform
-Full-stack SaaS platform helping university students find jobs, prepare for interviews, and manage their career journey. Solo-built from scratch — backend, frontend, data pipelines, infrastructure.
+### [StudentSucceed](https://studentsucceed.com) - AI Career Platform
+Full-stack SaaS platform helping university students find jobs, prepare for interviews, and manage their career journey. Solo-built from scratch - backend, frontend, data pipelines, infrastructure.
 
 **Highlights:**
-- **44x search optimization** — Job search from 2.4s → 55ms via PostgreSQL TSVECTOR + query restructuring
-- **Async resume pipeline** — 6.1s parse with Gemini structured output, non-blocking uploads
-- **Agentic data pipeline** — Medallion architecture collecting from 7+ ATS providers (Ashby, Lever, Greenhouse, Adzuna, USAJobs, Muse, RemoteOK)
-- **Credit-based billing** — Stripe integration with atomic credit transactions, tier-based access control
-- **Voice AI interviews** — Real-time WebSocket interview practice with Deepgram + LLM scoring
-- **Full CI/CD** — GitHub Actions for staging/production deploys, automated migrations
+- **44x search optimization** - Job search from 2.4s → 55ms via PostgreSQL TSVECTOR + query restructuring
+- **Async resume pipeline** - 6.1s parse with Gemini structured output, non-blocking uploads
+- **Agentic data pipeline** - Medallion architecture collecting from 7+ ATS providers (Ashby, Lever, Greenhouse, Adzuna, USAJobs, Muse, RemoteOK)
+- **Credit-based billing** - Stripe integration with atomic credit transactions, tier-based access control
+- **Voice AI interviews** - Real-time WebSocket interview practice with Deepgram + LLM scoring
+- **Full CI/CD** - GitHub Actions for staging/production deploys, automated migrations
 
 **Stack:** Python · FastAPI · Next.js · PostgreSQL · AWS ECS/Fargate · Stripe · Gemini · Deepgram
 
 ---
 
-### [localmem](https://localmem.org) — Open-Source Memory for AI Agents
+### [localmem](https://localmem.org) - Open-Source Memory for AI Agents
 The memory layer that follows you across every AI tool (Claude Code, Cursor, Cline, Windsurf, Claude Desktop). Open-source (Apache-2.0), local-first, and shipped as a single static Rust binary. Your memory is one plain-text file you own, with zero content telemetry.
 
 **Highlights:**
-- **75% on LongMemEval** — a 500-question long-term-memory benchmark, via a two-stage hybrid retriever (BM25 + vector search, reranked by a local cross-encoder)
-- **Recomputable trust** — an append-only event log is the source of truth; `localmem replay` rebuilds every derived store from that one file
-- **Bitemporal memory** — answers "what did I believe on date X" and resolves conflicting facts by when they were true, not by ingest order
-- **Local intelligence** — an async worker distills each memory into a typed knowledge graph with a local LLM, off the write path
-- **MCP-native** — works with every MCP-compatible client; one-command install via `curl` or `npx`
+- **75% on LongMemEval** - a 500-question long-term-memory benchmark, via a two-stage hybrid retriever (BM25 + vector search, reranked by a local cross-encoder)
+- **Recomputable trust** - an append-only event log is the source of truth; `localmem replay` rebuilds every derived store from that one file
+- **Bitemporal memory** - answers "what did I believe on date X" and resolves conflicting facts by when they were true, not by ingest order
+- **Local intelligence** - an async worker distills each memory into a typed knowledge graph with a local LLM, off the write path
+- **MCP-native** - works with every MCP-compatible client; one-command install via `curl` or `npx`
 
 **Stack:** Rust · DuckDB · LanceDB · Tantivy · ONNX · MCP · TypeScript  
 [Website](https://localmem.org) · [GitHub](https://github.com/VJ-yadav/localmem-community) · [npm](https://www.npmjs.com/package/localmem-mcp)
 
 ---
 
-### OSS Contributions — [AltimateAI/altimate-code](https://github.com/AltimateAI/altimate-code)
+### OSS Contributions - [AltimateAI/altimate-code](https://github.com/AltimateAI/altimate-code)
 
 Active contributor to Altimate's open-source data tool. **10 PRs** (1 merged, 9 in review):
 
@@ -97,13 +97,13 @@ Active contributor to Altimate's open-source data tool. **10 PRs** (1 merged, 9 
 
 ## 💼 Experience
 
-**🚀 Founder & Full Stack Engineer** — [StudentSucceed](https://studentsucceed.com) _(2024–Present)_  
-Building an AI-powered career platform for university students. Solo architect of the entire stack — backend services, React frontend, data pipelines, cloud infrastructure, and billing.
+**🚀 Founder & Full Stack Engineer** - [StudentSucceed](https://studentsucceed.com) _(2024-Present)_  
+Building an AI-powered career platform for university students. Solo architect of the entire stack - backend services, React frontend, data pipelines, cloud infrastructure, and billing.
 
-**🎓 Student Success Analyst** — Bentley University _(2024–Present)_  
+**🎓 Student Success Analyst** - Bentley University _(2024-Present)_  
 Built FinAid dashboards, cohort models, and retention metrics. Led masking + access control of clinical & referral data.
 
-**☁️ Lead Data Engineer** — Healthcare Cloud  
+**☁️ Lead Data Engineer** - Healthcare Cloud  
 Built scalable pipelines with GCP, PySpark, Airflow, BigQuery.
 
 ---
@@ -112,8 +112,8 @@ Built scalable pipelines with GCP, PySpark, Airflow, BigQuery.
 
 | Project | Description |
 |---------|-------------|
-| 🧠 [localmem](https://localmem.org) | Open-source local-first memory for AI agents — MCP-native, Rust, 75% on LongMemEval |
-| 🎓 [StudentSucceed](https://studentsucceed.com) | AI career platform — jobs, interviews, resume parsing, credit billing |
+| 🧠 [localmem](https://localmem.org) | Open-source local-first memory for AI agents - MCP-native, Rust, 75% on LongMemEval |
+| 🎓 [StudentSucceed](https://studentsucceed.com) | AI career platform - jobs, interviews, resume parsing, credit billing |
 | 🔧 [altimate-code contributions](https://github.com/AltimateAI/altimate-code/pulls?q=author%3AVJ-yadav) | 10 PRs: Databricks provider, GitLab integration, SQL injection fixes |
 | 🎬 [filmtrends-fullstack](https://github.com/VJ-yadav/filmtrends-fullstack) | Lambda + S3 video intelligence app |
 | 🧠 [sqldatawarehouse](https://github.com/VJ-yadav/sqldatawarehouse) | dbt-powered Snowflake warehouse |

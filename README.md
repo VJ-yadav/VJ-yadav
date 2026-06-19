@@ -2,6 +2,7 @@
 
 🎯 I build secure, intelligent data systems and platforms that help people succeed  
 🚀 Founder of [StudentSucceed](https://studentsucceed.com) — AI-powered career platform for university students  
+🧠 Creator of [localmem](https://localmem.org) — open-source, local-first memory for AI agents (MCP-native, Apache-2.0)  
 🔧 Active OSS contributor to [AltimateAI/altimate-code](https://github.com/AltimateAI/altimate-code)  
 🎥 I also run [vjsnapp.com](https://vjsnapp.com), my photography & video passion
 
@@ -21,6 +22,21 @@ Full-stack SaaS platform helping university students find jobs, prepare for inte
 - **Full CI/CD** — GitHub Actions for staging/production deploys, automated migrations
 
 **Stack:** Python · FastAPI · Next.js · PostgreSQL · AWS ECS/Fargate · Stripe · Gemini · Deepgram
+
+---
+
+### [localmem](https://localmem.org) — Open-Source Memory for AI Agents
+The memory layer that follows you across every AI tool (Claude Code, Cursor, Cline, Windsurf, Claude Desktop). Open-source (Apache-2.0), local-first, and shipped as a single static Rust binary. Your memory is one plain-text file you own, with zero content telemetry.
+
+**Highlights:**
+- **75% on LongMemEval** — a 500-question long-term-memory benchmark, via a two-stage hybrid retriever (BM25 + vector search, reranked by a local cross-encoder)
+- **Recomputable trust** — an append-only event log is the source of truth; `localmem replay` rebuilds every derived store from that one file
+- **Bitemporal memory** — answers "what did I believe on date X" and resolves conflicting facts by when they were true, not by ingest order
+- **Local intelligence** — an async worker distills each memory into a typed knowledge graph with a local LLM, off the write path
+- **MCP-native** — works with every MCP-compatible client; one-command install via `curl` or `npx`
+
+**Stack:** Rust · DuckDB · LanceDB · Tantivy · ONNX · MCP · TypeScript  
+[Website](https://localmem.org) · [GitHub](https://github.com/VJ-yadav/localmem-community) · [npm](https://www.npmjs.com/package/localmem-mcp)
 
 ---
 
@@ -96,6 +112,7 @@ Built scalable pipelines with GCP, PySpark, Airflow, BigQuery.
 
 | Project | Description |
 |---------|-------------|
+| 🧠 [localmem](https://localmem.org) | Open-source local-first memory for AI agents — MCP-native, Rust, 75% on LongMemEval |
 | 🎓 [StudentSucceed](https://studentsucceed.com) | AI career platform — jobs, interviews, resume parsing, credit billing |
 | 🔧 [altimate-code contributions](https://github.com/AltimateAI/altimate-code/pulls?q=author%3AVJ-yadav) | 10 PRs: Databricks provider, GitLab integration, SQL injection fixes |
 | 🎬 [filmtrends-fullstack](https://github.com/VJ-yadav/filmtrends-fullstack) | Lambda + S3 video intelligence app |
